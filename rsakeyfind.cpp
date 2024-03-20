@@ -10,6 +10,8 @@
 #include <sys/mman.h>
 #include <string>
 #include <iostream>
+#include <cstring>
+#include <unistd.h>
 
 #ifdef __FreeBSD__
 #include <err.h>
